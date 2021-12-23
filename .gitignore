@@ -1,5 +1,8 @@
-# Ignore Gradle project-specific cache directory
+#файлы сборки
+/build/
+
+#служебные файлы Gradle
 .gradle
 
-# Ignore Gradle build output directory
-build
+#временные файлы
+*~
