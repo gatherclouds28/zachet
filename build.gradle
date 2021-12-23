@@ -7,10 +7,10 @@ repositories {
     mavenCentral()
 }
 
+
 dependencies {
-	implementation(localGroovy())
-	testImplementation(platform('org.junit:junit-bom:5.8.2'))
-	testImplementation('org.junit.jupiter:junit-jupiter')
+    testCompile 'junit:junit:5.8.2'
+    testCompile("org.assertj:assertj-core:3.11.1")
 }
 
 test {
